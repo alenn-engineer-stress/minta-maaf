@@ -8,7 +8,7 @@ Cukup klik, dan biarkan efek *love* yang bekerja~
 
 ## ✨ Fitur
 - *Personalization* dengan menggunakan nama panggilan
-- Tombol "Maafin 💖" dan "Enggak 😠" yang interaktif  
+- Tombol "iyaaa" dan "oraa" yang interaktif  
 - Efek tombol membesar & mengecil pas ditekan  
 - Pop-up love animation super cute  
 - Mobile-friendly (bisa dibuka di HP)  
