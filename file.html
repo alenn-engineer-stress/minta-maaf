@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>surat terbuka</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!-- Step 1: Input name -->
+	<div class="card" id="nameCard">
+		<h1>weh koe </h1>
+		<p>arane sapa tulis</p>
+		<input type="text" id="nickname" placeholder="contoh: ayang, beb, panggilan khusus..." />
+		<button id="submitName">Lanjut </button>
+	</div>
+
+	<!-- Step 2: surat-->
+	<div class="card" id="apologyCard" style="display: none;">
+		<h1>apakah kamu jelek</h1>
+		<p id="apologyText">apakah kamu jelek</p>
+		<div class="btn-group">
+			<button id="yesBtn">iyaaa</button>
+			<button id="noBtn">nggaaa 😠</button>
+		</div>
+	</div>
+
+	<!-- signature placed under the card(s) -->
+	<div class="footer">
+		Made by
+		<a href="https://www.tiktok.com/@alenn.engineer.stress" target="_blank" rel="noopener">
+			by:azka ibnu farzana 
+		</a>
+		💖
+	</div>
+
+	<!-- Popup -->
+	<div class="popup" id="popup">
+		<div class="popup-content">
+			<h2 id="popupTitle"></h2>
+			<p id="popupMsg"></p>
+			<div class="hearts" id="hearts"></div>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
